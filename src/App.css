@@ -1,0 +1,74 @@
+h1 {
+  font-size: 1.5em;
+}
+
+/* header css */
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0 2%;
+}
+
+.App-header form {
+  display: flex;
+}
+
+.AppInputHeader {
+  padding: 3%;
+}
+
+.AppLabelHeader  {
+  padding: 5px 10px;
+  background-color: #a3a2a2;
+}
+
+
+
+.LoginContainer {
+  text-align: center;
+}
+
+.LoginContainer .UserLog a {
+  color: #d6d6d6;
+  font-size: .8em;
+}
+
+/* container css */
+.Container {
+  padding: 2%;
+  background: linear-gradient(90deg, rgba(47,47,47,1) 0%, rgba(121,121,138,0.4) 100%, rgba(0,212,255,1) 100%);
+}
+
+/* cars css */
+.CardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Cards {
+  background-color: white;
+  max-width: 19%;
+  margin: 0 0.5% 2%;
+  border-radius: 5px;
+}
+
+.Cards img {
+  max-width: 100%;
+}
+
+.Cards .CardTextArea {
+  padding: 2% 6%;
+}
+
+/* footer css */
+.AppFooter {
+  background-color: #282c34;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: .5% 0;
+}
