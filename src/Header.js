@@ -11,7 +11,7 @@ function Header() {
       <div className="LoginContainer">
         <FontAwesomeIcon icon={faUser} />
         <div className="UserLog">
-          <a href="#">Log in</a> / <a href="#">Sign up</a>
+          <span>Log in</span> / <span>Sign up</span>
         </div>
       </div>
 
