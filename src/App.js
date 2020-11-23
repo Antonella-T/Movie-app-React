@@ -1,9 +1,9 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import './App.css';
-import Cards from '../../Movie-app-React/src/Cards';
-import Header from '../../Movie-app-React/src/Header';
-import Footer from '../../Movie-app-React/src/Footer';
+import Cards from './Cards';
+import Header from './Header';
+import Footer from './Footer';
 import ScrollUp from './ScrollUp';
 
 export default function App() {
